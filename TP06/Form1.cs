@@ -55,7 +55,6 @@ namespace TP06
 
 		private void button2_Click(object sender, EventArgs e)
 		{
-			//find the guiche with the given id from textBox1
 			int id = Convert.ToInt32(textBox1.Text);
 			Guiche guiche = this.guiches.buscar(id);
 			if (guiche != null)
